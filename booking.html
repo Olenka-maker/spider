@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення - PlayStation Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-flex">
+        <div class="logo">PlayStation Store</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="booking.html" class="active">Бронювання</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="order-section">
+    <div class="order-container-flex">
+        <div class="form-container">
+
+            <h2>Замовлення гри</h2>
+            <p class="form-subtitle">Зареєструйтеся на сайті <strong>playstation store</strong> для замовлення гри</p>
+
+            <form class="order-form">
+
+                <div class="form-group">
+                    <label>Ваш логін</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Електронна адреса</label>
+                        <input type="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Банківська карта</label>
+                        <input type="text" placeholder="xxxx xxxx xxxx xxxx" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>CCV код</label>
+                    <input type="password" maxlength="3" required>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" required>
+                    <label>Я згоден з правилами та умовами playstation store</label>
+                </div>
+
+                <button class="submit-btn">✓ Підтвердити замовлення</button>
+
+            </form>
+
+        </div>
+
+        <div class="ps-shapes-side"></div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 PlayStation 4.</p>
+</footer>
+
+</body>
+</html>
